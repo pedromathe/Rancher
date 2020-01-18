@@ -1,0 +1,9 @@
+stages:
+- name: deploy
+  steps:
+  - applyYamlConfig:
+      path: ./zabbix-all-rancher.yaml
+  - applyYamlConfig:
+      path: ./zabbix-ingress.yml
+timeout: 60
+notification: {}
