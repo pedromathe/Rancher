@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: zabbix.oficina.leve.cloud
+  - host: oficina6.oficina.leve.cloud
     http:
       paths:
       - path: /
